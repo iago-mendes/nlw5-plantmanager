@@ -23,21 +23,22 @@ export function Button({title}: ButtonProps)
 }
 
 const styles = StyleSheet.create(
-{
-	button:
 	{
-		backgroundColor: colors.green,
-		justifyContent: 'center',
-		alignItems: 'center',
-		borderRadius: 16,
-		marginBottom: 10,
-		height: 56,
-		width: 56
-	},
+		button:
+		{
+			backgroundColor: colors.green,
+			justifyContent: 'center',
+			alignItems: 'center',
+			borderRadius: 16,
+			marginBottom: 10,
+			height: 56,
+			width: 56
+		},
 
-	buttonText:
-	{
-		color: colors.white,
-		fontSize: 24
+		buttonText:
+		{
+			color: colors.white,
+			fontSize: 24
+		}
 	}
-})
+)

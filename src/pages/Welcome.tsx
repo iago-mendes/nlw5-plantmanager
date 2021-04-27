@@ -28,37 +28,39 @@ export function Welcome()
 	)
 }
 
-const styles = StyleSheet.create({
-	container:
+const styles = StyleSheet.create(
 	{
-		flex: 1,
-		alignItems: 'center',
-		justifyContent: 'space-around',
-		paddingHorizontal: 30
-	},
+		container:
+		{
+			flex: 1,
+			alignItems: 'center',
+			justifyContent: 'space-around',
+			paddingHorizontal: 30
+		},
 
-	title:
-	{
-		fontSize: 28,
-		textAlign: 'center',
-		color: colors.heading,
-		marginTop: 38,
-		fontFamily: fonts.heading,
-		lineHeight: 34
-	},
+		title:
+		{
+			fontSize: 28,
+			textAlign: 'center',
+			color: colors.heading,
+			marginTop: 38,
+			fontFamily: fonts.heading,
+			lineHeight: 34
+		},
 
-	subtitle:
-	{
-		textAlign: 'center',
-		fontSize: 18,
-		paddingHorizontal: 20,
-		color: colors.heading,
-		fontFamily: fonts.text
-	},
+		subtitle:
+		{
+			textAlign: 'center',
+			fontSize: 18,
+			paddingHorizontal: 20,
+			color: colors.heading,
+			fontFamily: fonts.text
+		},
 
-	image:
-	{
-		width: 292,
-		height: 284
+		image:
+		{
+			width: 292,
+			height: 284
+		}
 	}
-})
+)
